@@ -615,23 +615,28 @@ nav a:hover {
                     </div>
 
                     <!-- Propiedad 2 -->
-                    <div class="propiedad-card">
-                        <div class="propiedad-img">
-                         <img src="" alt="Av 2da Propiedad">
-                        </div>
-                        <div class="propiedad-info">
-                            <div class="precio">$ 720.000</div>
-                            <div class="direccion">Dirección de la Propiedad</div>
-                            <div class="detalles">
-                                <div class="detalle-item">📐 45 m²</div>
-                                <div class="detalle-item">🛏️ 1 dorm.</div>
-                                <div class="detalle-item">📅 17 años</div>
-                            </div>
-                            <p class="descripcion">Descripción breve de la propiedad con características principales.</p>
-                            <button class="btn-ver-mas" onclick="mostrarDetalle(2)">Ver más</button>
-                            <a href="#contacto" class="btn-contactar">Contactar</a>
-                        </div>
-                    </div>
+            <div class="propiedad-card">
+                <div class="propiedad-img">
+                <div style="width:100%; height:100%; background:#ddd; display:flex; align-items:center; justify-content:center; color:#999;">
+            Foto Propiedad 2
+            </div>
+            </div>
+            <div class="propiedad-info">
+            <div class="precio">USD 215.000</div>
+            <div class="direccion">José Bonifacio 1500, Piso 7</div>
+
+            <div class="detalles">
+                <div class="detalle-item">📐 69 m²</div>
+                <div class="detalle-item">🛏️ 2 dorm.</div>
+                <div class="detalle-item">🛁 2 baños</div>
+            </div>
+
+        <p class="descripcion">Departamento en venta en Caballito, Capital Federal. Semipiso 3 ambientes con cochera.</p>
+        <button class="btn-ver-mas" onclick="mostrarDetalle(2)">Ver más</button>
+        <a href="#contacto" class="btn-contactar">Contactar</a>
+
+            </div>
+            </div>
 
                     <!-- Propiedad 3 -->
                     <div class="propiedad-card">
@@ -688,69 +693,58 @@ nav a:hover {
             <button class="btn-volver" onclick="mostrarInicio()">← Volver a Propiedades</button>
         </div>
         <div class="detalle-content">
-            <!-- Galería de Fotos -->
-            <div class="galeria-container">
-                <div class="galeria-slides" id="galeria-slides-1">
-                    <!-- Foto 1 - Fachada -->
-                    <div class="galeria-slide">
-                        <img src="fachada.jpg" alt="Fachada del edificio">
-                    </div>
-                    <!-- Fotos 2-15 -->
-                  <div class="galeria-slide"><img src="Balcon.jpg" alt="Balcón"></div>
-                       <div class="galeria-slide"><img src="Baño.jpg" alt="Baño"></div>
-                    <div class="galeria-slide"><img src="Cocina.jpg" alt="Cocina"></div>
-                    <div class="galeria-slide"><img src="garage.jpg" alt="Garage"></div>
-                    <div class="galeria-slide"><img src="Habitacion.jpg" alt="Habitación"></div>
-                    <div class="galeria-slide"><img src="Lavadero.jpg" alt="Lavadero"></div>
-                    <div class="galeria-slide"><img src="Living.jpg" alt="Living"></div>
-                    <div class="galeria-slide"><img src="Living2.jpg" alt="Living 2"></div>
-                    <div class="galeria-slide"><img src="Pileta.jpg" alt="Pileta"></div>
-                    <div class="galeria-slide"><img src="Vista.jpg" alt="Vista"></div>
-                </div>
-                </div>
-                <button class="galeria-btn galeria-btn-prev" onclick="cambiarFoto(-1, 1)">‹</button>
-                <button class="galeria-btn galeria-btn-next" onclick="cambiarFoto(1, 1)">›</button>
-                <div class="galeria-contador" id="contador-1">1 / 11</div>
-            </div>
-            
-            <!-- Miniaturas -->
-            <div class="galeria-thumbnails" id="thumbnails-1">
- 
-            <div class ="galeria-thumb active" onclick="irAFoto(0, 1)"[1]>
-                <img src="fachada.jpg" alt="Fachada del edificio"></div>
+<!-- Galería de Fotos -->
+<div class="galeria-container">
+    <div class="galeria-slides" id="galeria-slides-1">
+        <!-- Foto 1 - Fachada -->
+        <div class="galeria-slide">
+            <img src="fachada.jpg" alt="Fachada del edificio">
+        </div>
+        <!-- Fotos 2-18 -->
+        <div class="galeria-slide"><img src="Balcon.jpg" alt="Balcón"></div>
+        <div class="galeria-slide"><img src="Baño.jpg" alt="Baño"></div>
+        <div class="galeria-slide"><img src="Cocina.jpg" alt="Cocina"></div>
+        <div class="galeria-slide"><img src="Cocina2.jpg" alt="Cocina 2"></div>
+        <div class="galeria-slide"><img src="garage.jpg" alt="Garage"></div>
+        <div class="galeria-slide"><img src="Habitacion.jpg" alt="Habitación"></div>
+        <div class="galeria-slide"><img src="Lavadero.jpg" alt="Lavadero"></div>
+        <div class="galeria-slide"><img src="Living.jpg" alt="Living"></div>
+        <div class="galeria-slide"><img src="Living2.jpg" alt="Living 2"></div>
+        <div class="galeria-slide"><img src="Pileta.jpg" alt="Pileta"></div>
+        <div class="galeria-slide"><img src="Vista.jpg" alt="Vista"></div>
+        <div class="galeria-slide"><img src="Colchon.jpg" alt="Colchón"></div>
+        <div class="galeria-slide"><img src="Estantes.jpg" alt="Estantes"></div>
+        <div class="galeria-slide"><img src="Horno.jpg" alt="Horno"></div>
+        <div class="galeria-slide"><img src="Mesa.jpg" alt="Mesa"></div>
+        <div class="galeria-slide"><img src="Puertas.jpg" alt="Puertas"></div>
+        <div class="galeria-slide"><img src="Terraza.jpg" alt="Terraza"></div>
+    </div>
+    <button class="galeria-btn galeria-btn-prev" onclick="cambiarFoto(-1, 1)">‹</button>
+    <button class="galeria-btn galeria-btn-next" onclick="cambiarFoto(1, 1)">›</button>
+    <div class="galeria-contador" id="contador-1">1 / 18</div>
+</div>
 
-            <div class ="galeria-thumb active" onclick="irAFoto(1, 1)"[2]>
-                <img src="Balcon.jpg" alt="Balcón"></div>
-
-            <div class ="galeria-thumb active" onclick="irAFoto(2, 1)"[3]>
-                <img src="Baño.jpg" alt="Baño"></div>
-
-            <div class ="galeria-thumb active" onclick="irAFoto(3, 1)"[4]>
-                <img src="Cocina.jpg" alt="Cocina"></div>
-
-            <div class ="galeria-thumb active" onclick="irAFoto(4, 1)"[5]>
-                <img src="garage.jpg" alt="Garage"></div>
-
-            <div class ="galeria-thumb active" onclick="irAFoto(5, 1)"[6]>
-                <img src="Habitacion.jpg" alt="Habitación"></div>
-
-            <div class ="galeria-thumb active" onclick="irAFoto(6, 1)"[7]>
-                <img src="Lavadero.jpg" alt="Lavadero"></div>
-
-            <div class ="galeria-thumb active" onclick="irAFoto(7, 1)"[8]>
-                <img src="Living.jpg" alt="Living"></div>
-
-            <div class ="galeria-thumb active" onclick="irAFoto(8, 1)"[9]>
-                <img src="Living2.jpg" alt="Living 2"></div>
-
-            <div class ="galeria-thumb active" onclick="irAFoto(9, 1)"[10]>
-                <img src="Pileta.jpg" alt="Pileta"></div>
-                
-            <div class ="galeria-thumb active" onclick="irAFoto(10, 1)"[11]>
-                <img src="Vista.jpg" alt="Vista"></div>
-
-            </div>
-            
+<!-- Miniaturas -->
+<div class="galeria-thumbnails" id="thumbnails-1">
+    <div class="galeria-thumb active" onclick="irAFoto(0, 1)"><img src="fachada.jpg" alt="1"></div>
+    <div class="galeria-thumb" onclick="irAFoto(1, 1)"><img src="Balcon.jpg" alt="2"></div>
+    <div class="galeria-thumb" onclick="irAFoto(2, 1)"><img src="Baño.jpg" alt="3"></div>
+    <div class="galeria-thumb" onclick="irAFoto(3, 1)"><img src="Cocina.jpg" alt="4"></div>
+    <div class="galeria-thumb" onclick="irAFoto(4, 1)"><img src="Cocina2.jpg" alt="5"></div>
+    <div class="galeria-thumb" onclick="irAFoto(5, 1)"><img src="garage.jpg" alt="6"></div>
+    <div class="galeria-thumb" onclick="irAFoto(6, 1)"><img src="Habitacion.jpg" alt="7"></div>
+    <div class="galeria-thumb" onclick="irAFoto(7, 1)"><img src="Lavadero.jpg" alt="8"></div>
+    <div class="galeria-thumb" onclick="irAFoto(8, 1)"><img src="Living.jpg" alt="9"></div>
+    <div class="galeria-thumb" onclick="irAFoto(9, 1)"><img src="Living2.jpg" alt="10"></div>
+    <div class="galeria-thumb" onclick="irAFoto(10, 1)"><img src="Pileta.jpg" alt="11"></div>
+    <div class="galeria-thumb" onclick="irAFoto(11, 1)"><img src="Vista.jpg" alt="12"></div>
+    <div class="galeria-thumb" onclick="irAFoto(12, 1)"><img src="Colchon.jpg" alt="13"></div>
+    <div class="galeria-thumb" onclick="irAFoto(13, 1)"><img src="Estantes.jpg" alt="14"></div>
+    <div class="galeria-thumb" onclick="irAFoto(14, 1)"><img src="Horno.jpg" alt="15"></div>
+    <div class="galeria-thumb" onclick="irAFoto(15, 1)"><img src="Mesa.jpg" alt="16"></div>
+    <div class="galeria-thumb" onclick="irAFoto(16, 1)"><img src="Puertas.jpg" alt="17"></div>
+    <div class="galeria-thumb" onclick="irAFoto(17, 1)"><img src="Terraza.jpg" alt="18"></div>
+</div>            
             <div class="detalle-info">
                 <div class="detalle-precio">USD 240.000</div>
                 <div class="detalle-direccion">Av Curapaligüe 436, Piso 7</div>
@@ -904,23 +898,189 @@ nav a:hover {
         </div>
     </div>
 
-    <!-- Página Detalle Propiedad 2 (Placeholder) -->
-    <div id="detalle-2" class="detalle-propiedad">
-        <div class="detalle-header">
-            <button class="btn-volver" onclick="mostrarInicio()">← Volver a Propiedades</button>
-        </div>
-        <div class="detalle-content">
-            <div class="detalle-imagen">
-                [Foto Principal Propiedad 2]
+<!-- Página Detalle Propiedad 2 -->
+<div id="detalle-2" class="detalle-propiedad">
+    <div class="detalle-header">
+        <button class="btn-volver" onclick="mostrarInicio()">← Volver a Propiedades</button>
+    </div>
+    <div class="detalle-content">
+        <!-- Galería de Fotos -->
+        <div class="galeria-container">
+<div class="galeria-slides" id="galeria-slides-2">
+    <!-- Foto 1 - Principal -->
+    <div class="galeria-slide">
+        <div class="galeria-placeholder">[Foto Principal: Subir imagen]</div>
+    </div>
+    <!-- Fotos 2-14 -->
+    <div class="galeria-slide"><img src="Acceso.jpg" alt="Acceso"></div>
+    <div class="galeria-slide"><img src="pasillos.jpg" alt="Pasillos"></div>
+    <div class="galeria-slide"><img src="baño1.jpg" alt="Baño 1"></div>
+    <div class="galeria-slide"><img src="baño2.jpg" alt="Baño 2"></div>
+    <div class="galeria-slide"><img src="bañodep2.jpg" alt="Baño Departamento 2"></div>
+    <div class="galeria-slide"><img src="dormivista.jpg" alt="Dormitorio con vista"></div>
+    <div class="galeria-slide"><img src="dormivista2.jpg" alt="Dormitorio con vista 2"></div>
+    <div class="galeria-slide"><img src="dormitorio.jpg" alt="Dormitorio Principal"></div>
+    <div class="galeria-slide"><img src="habVacia.jpg" alt="Habitación vacía"></div>
+    <div class="galeria-slide"><img src="vistahabi.jpg" alt="Vista Habitación"></div>
+    <div class="galeria-slide"><img src="Estantes.jpg" alt="Estantes"></div>
+    <div class="galeria-slide"><img src="pasillos.jpg" alt="Pasillos"></div>
+    <div class="galeria-slide"><img src="vistaAire.jpg" alt="Vista aire"></div>
+</div>
             </div>
-            <div class="detalle-info">
-                <div class="detalle-precio">$ 720.000</div>
-                <div class="detalle-direccion">Dirección de la Propiedad 2</div>
-                <p style="color: #666; margin-bottom: 30px;">Información detallada pendiente</p>
+            <button class="galeria-btn galeria-btn-prev" onclick="cambiarFoto(-1, 2)">‹</button>
+            <button class="galeria-btn galeria-btn-next" onclick="cambiarFoto(1, 2)">›</button>
+            <div class="galeria-contador" id="contador-2">1 / 14</div>
+        </div>
+        
+        <!-- Miniaturas -->
+        <div class="galeria-thumbnails" id="thumbnails-2">
+        <div class="galeria-thumb active" onclick="irAFoto(0, 2)">placeholder</div>
+        <div class="galeria-thumb" onclick="irAFoto(1, 2)"><img src="Acceso.jpg" alt="1"></div>
+        <div class="galeria-thumb" onclick="irAFoto(2, 2)"><img src="pasillos.jpg" alt="2"></div>
+        <div class="galeria-thumb" onclick="irAFoto(3, 2)"><img src="baño1.jpg" alt="3"></div>
+        <div class="galeria-thumb" onclick="irAFoto(4, 2)"><img src="baño2.jpg" alt="4"></div>
+        <div class="galeria-thumb" onclick="irAFoto(5, 2)"><img src="bañodep2.jpg" alt="5"></div>
+        <div class="galeria-thumb" onclick="irAFoto(6, 2)"><img src="dormivista.jpg" alt="6"></div>
+        <div class="galeria-thumb" onclick="irAFoto(7, 2)"><img src="dormivista2.jpg" alt="7"></div>
+        <div class="galeria-thumb" onclick="irAFoto(8, 2)"><img src="dormitorio.jpg" alt="8"></div>
+        <div class="galeria-thumb" onclick="irAFoto(9, 2)"><img src="habVacia.jpg" alt="9"></div>
+        <div class="galeria-thumb" onclick="irAFoto(10, 2)"><img src="vistahabi.jpg" alt="10"></div>
+        <div class="galeria-thumb" onclick="irAFoto(11, 2)"><img src="Estantes.jpg" alt="11"></div>
+        <div class="galeria-thumb" onclick="irAFoto(12, 2)"><img src="pasillos.jpg" alt="12"></div>
+        <div class="galeria-thumb" onclick="irAFoto(13, 2)"><img src="vistaAire.jpg" alt="13"></div>
+    </div>        
+        <div class="detalle-info">
+            <div class="detalle-precio">USD 215.000</div>
+            <div class="detalle-direccion">José Bonifacio 1500, Piso 7</div>
+            <p style="color: #666; margin-bottom: 30px;">Departamento en Venta en Caballito, Capital Federal</p>
+
+            <!-- Características Principales -->
+            <div class="detalle-section">
+                <h3>Características Principales</h3>
+                <div class="caracteristicas-grid">
+                    <div class="caracteristica-item">
+                        <span class="caracteristica-label">Sup. Cubierta:</span>
+                        <span class="caracteristica-valor">65 m²</span>
+                    </div>
+                    <div class="caracteristica-item">
+                        <span class="caracteristica-label">Sup. Descubierta:</span>
+                        <span class="caracteristica-valor">4 m²</span>
+                    </div>
+                    <div class="caracteristica-item">
+                        <span class="caracteristica-label">Sup. Total:</span>
+                        <span class="caracteristica-valor">69 m²</span>
+                    </div>
+                    <div class="caracteristica-item">
+                        <span class="caracteristica-label">Cant. Ambientes:</span>
+                        <span class="caracteristica-valor">3</span>
+                    </div>
+                    <div class="caracteristica-item">
+                        <span class="caracteristica-label">Cant. Dormitorios:</span>
+                        <span class="caracteristica-valor">2</span>
+                    </div>
+                    <div class="caracteristica-item">
+                        <span class="caracteristica-label">Cant. Baños:</span>
+                        <span class="caracteristica-valor">2</span>
+                    </div>
+                    <div class="caracteristica-item">
+                        <span class="caracteristica-label">Cant. Cocheras:</span>
+                        <span class="caracteristica-valor">1</span>
+                    </div>
+                    <div class="caracteristica-item">
+                        <span class="caracteristica-label">Estado:</span>
+                        <span class="caracteristica-valor">Muy Bueno</span>
+                    </div>
+                    <div class="caracteristica-item">
+                        <span class="caracteristica-label">Disposición:</span>
+                        <span class="caracteristica-valor">Contrafrente</span>
+                    </div>
+                    <div class="caracteristica-item">
+                        <span class="caracteristica-label">Tipo de Vista:</span>
+                        <span class="caracteristica-valor">Vista ciudad</span>
+                    </div>
+                    <div class="caracteristica-item">
+                        <span class="caracteristica-label">Tipo de Balcón:</span>
+                        <span class="caracteristica-valor">Corrido</span>
+                    </div>
+                    <div class="caracteristica-item">
+                        <span class="caracteristica-label">Tipo Expensas:</span>
+                        <span class="caracteristica-valor">No Incluidas</span>
+                    </div>
+                    <div class="caracteristica-item">
+                        <span class="caracteristica-label">Antigüedad:</span>
+                        <span class="caracteristica-valor">12 años</span>
+                    </div>
+                    <div class="caracteristica-item">
+                        <span class="caracteristica-label">Expensas:</span>
+                        <span class="caracteristica-valor">$ 240.000</span>
+                    </div>
+                    <div class="caracteristica-item">
+                        <span class="caracteristica-label">Tipo de Unidad:</span>
+                        <span class="caracteristica-valor">Departamento</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Instalaciones -->
+            <div class="detalle-section">
+                <h3>Instalaciones del Departamento</h3>
+                <p>Agua caliente, Agua corriente, Aire acondicionado individual, Gas natural.</p>
+            </div>
+
+            <!-- Servicios -->
+            <div class="detalle-section">
+                <h3>Servicios del Departamento</h3>
+                <p>ABL, Agua corriente, Electricidad, Gas natural.</p>
+            </div>
+
+            <!-- Características del Edificio -->
+            <div class="detalle-section">
+                <h3>Características del Edificio</h3>
+                <div class="caracteristicas-grid">
+                    <div class="caracteristica-item">
+                        <span class="caracteristica-label">Cant. Pisos:</span>
+                        <span class="caracteristica-valor">9</span>
+                    </div>
+                    <div class="caracteristica-item">
+                        <span class="caracteristica-label">Deptos. Por Piso:</span>
+                        <span class="caracteristica-valor">2</span>
+                    </div>
+                    <div class="caracteristica-item">
+                        <span class="caracteristica-label">Antigüedad:</span>
+                        <span class="caracteristica-valor">12 años</span>
+                    </div>
+                    <div class="caracteristica-item">
+                        <span class="caracteristica-label">Estado Edificio:</span>
+                        <span class="caracteristica-valor">Excelente</span>
+                    </div>
+                    <div class="caracteristica-item">
+                        <span class="caracteristica-label">Tipo Edificio:</span>
+                        <span class="caracteristica-valor">Entre Medianeras</span>
+                    </div>
+                    <div class="caracteristica-item">
+                        <span class="caracteristica-label">Tipo de Vista:</span>
+                        <span class="caracteristica-valor">Vista ciudad</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Información Adicional -->
+            <div class="detalle-section">
+                <h3>Información Adicional</h3>
+                <div class="info-adicional">
+                    <p style="font-weight: 600; margin-bottom: 10px;">Semipiso 3 ambientes con cochera - Excelente Zona</p>
+                    <p>Dormitorio principal en suite con vestidor. Segundo baño completo. Cocina y lavadero independiente. Balcón corrido. Dos ascensores. Encargado fijo con vivienda. SUM en el último piso.</p>
+                </div>
+            </div>
+
+            <!-- Botones de Acción -->
+            <div style="margin-top: 40px; display: flex; gap: 15px; flex-wrap: wrap;">
+                <a href="#contacto" class="btn" onclick="mostrarInicio(); setTimeout(() => document.getElementById('contacto').scrollIntoView({behavior: 'smooth'}), 100)">Consultar por esta propiedad</a>
                 <button class="btn-volver" onclick="mostrarInicio()">← Volver a Propiedades</button>
             </div>
         </div>
     </div>
+</div>
 
     <!-- Página Detalle Propiedad 3 (Placeholder) -->
     <div id="detalle-3" class="detalle-propiedad">
@@ -953,7 +1113,7 @@ nav a:hover {
     <script>
         // Control de galería
         let fotoActual = {1: 0, 2: 0, 3: 0};
-        const totalFotos = {1: 11, 2: 1, 3: 1};
+        const totalFotos = {1: 18, 2: 14, 3: 1};
 
         function cambiarFoto(direccion, propiedadId) {
             const total = totalFotos[propiedadId];
